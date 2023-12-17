@@ -15,8 +15,8 @@ env:
 
 
 jobs:
-  Build-ESPDumpsterWebApp:
-    environment: ICLWebApp
+  Build-RTCContentSystem_POSTerminal:
+    environment: POSTerminal
       
     runs-on: ubuntu-latest
     
