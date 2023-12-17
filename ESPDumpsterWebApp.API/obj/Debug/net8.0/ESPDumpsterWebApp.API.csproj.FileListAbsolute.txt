@@ -1,0 +1,13 @@
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/bin/Debug/net8.0/ESPDumpsterWebApp.API.deps.json
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/bin/Debug/net8.0/ESPDumpsterWebApp.API.dll
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/bin/Debug/net8.0/ESPDumpsterWebApp.API.pdb
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ESPDumpsterWebApp.API.csproj.AssemblyReference.cache
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ESPDumpsterWebApp.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ESPDumpsterWebApp.API.AssemblyInfoInputs.cache
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ESPDumpsterWebApp.API.AssemblyInfo.cs
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ESPDumpsterWebApp.API.csproj.CoreCompileInputs.cache
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ESPDumpsterWebApp.API.sourcelink.json
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ESPDumpsterWebApp.API.dll
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/refint/ESPDumpsterWebApp.API.dll
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ESPDumpsterWebApp.API.pdb
+/Users/shashinma/Documents/GitHub/ESPDumpsterWebApp/ESPDumpsterWebApp.API/obj/Debug/net8.0/ref/ESPDumpsterWebApp.API.dll

@@ -1,0 +1,299 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> iclaboratory </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="~/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="~/css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="~/images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" asp-action="Index" asp-controller="Home">
+            <span>
+              iclaboratory.
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Home">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" asp-action="About" asp-controller="Home">О нас</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link"  asp-action="Service" asp-controller="Home">Сервис <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  asp-action="Why" asp-controller="Home">Преимущества</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  asp-action="Team" asp-controller="Home">Команда</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Dashboard"><i class="fa fa-user" aria-hidden="true" style="padding-right: 10px"></i> Личный кабинет</a>
+              </li>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Наши <span>преимущества</span>
+          </h2>
+          <p>
+            Для повышения эффективности обслуживания мусорных контейнеров, и снижении затрат на транспортные расходы и логистику, 
+            мы предлагаем нашим клиентам web-сервис для получения данных со всех обслуживаемых контейнеров. 
+            Данный сервис позволяет получать инфографику, прогнозировать показания на будущее, а также получать обратную связь от клиентов. <br/>
+            В чем же преимущество нашего web-сервиса?
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="~/images/s1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Быстрая интеграция современных решений
+                </h5>
+                <p>
+                  Наше решение позволяет быстро развернуть продукт в вашей инфраструктуре 
+                  в кратчайшие сроки при помощи наших технических специалистов или рекомендаций сотрудников тех.поддержки.<br/>
+                  <br/>
+                  Также возможна аренда облачной инфраструктуры.
+                </p>
+                <a href="">
+                  Подробнее
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="~/images/s2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Безопасность данных
+                </h5>
+                <p>
+                  Продукт обеспечивает безопасное хранение данные ваших клиентов, 
+                  как при интеграции в вашу инфраструктуру, так и при развертывании в облаке.<br/>
+                  <br/>
+                  Переложите безопасность персональных данных ваших клиентов и сотрудников на нас.
+                </p>
+                <a href="">
+                  Подробнее
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="~/images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Профессиональная техническая поддержка
+                </h5>
+                <p>
+                  При возникновении вопросов вы можете направить обращение на почтовый адрес организации, а также по контактному номеру телефона. <br/>
+                  <br/>
+                  Наша техническая поддержка в кратчайшие сроки поможет ответить на ваши вопросы, а также отправит технического специалиста.
+                </p>
+                <a href="">
+                  Подробнее
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="">
+            Посмотреть все
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Контактная информация
+            </h4>
+            <div class="contact_link_box">
+              <a>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Санкт-Петербург
+                </span>
+              </a>
+              <a href="mailto:info@iclaboratory.ru">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  info@iclaboratory.ru
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Информация
+            </h4>
+            <p>
+              Intelligent City Lab – компания-разработчик и интегратор IoT решений
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Ссылки
+            </h4>
+            <div class="info_links">
+              <a class="" asp-action="Index" asp-controller="Home">
+                Главная
+              </a>
+              <a class="" asp-action="About" asp-controller="Home">
+                О нас
+              </a>
+              <a class="active" asp-action="Service" asp-controller="Home">
+                Сервис
+              </a>
+              <a class="" asp-action="Why" asp-controller="Home">
+                Преимущества
+              </a>
+              <a class="" asp-action="Team" asp-controller="Home">
+                Команда
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Проект
+          </h4>
+          <div class="info_links">
+            <a class="active" href="https://github.com/iclaboratory">
+              GitHub организации
+            </a>
+            <a class="active" href="https://github.com/shashinma">
+              GitHub разработчика
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="~/js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="~/js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="~/js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>

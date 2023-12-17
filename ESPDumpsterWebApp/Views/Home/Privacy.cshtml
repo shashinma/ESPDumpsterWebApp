@@ -1,0 +1,28 @@
+﻿@using POSTerminal.Services
+
+@inject IESPPostService EspPostService
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+        <h3>Запросы</h3>
+<table>
+    <tr>
+        
+        <td><p>Id в базе</p></td>
+        <td><p>ESPName</p></td>
+        <td><p>Level</p></td>
+        <td><p>TimeStamp</p></td>
+        <td></td>
+    </tr>
+    @foreach (var postItems in EspPostService.GetPostItems())
+    {
+        <tr>
+            <td><p>@postItems.Id</p></td>
+            <td><p>@postItems.ESPName</p></td>
+            <td><p>@postItems.Level</p></td>
+            <td><p>@postItems.TimeStamp</p></td>
+        </tr>
+    }
+</table>
