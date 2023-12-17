@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ESPDumpsterWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ac217731be90c0f00162e3906fb1bb522ac7d68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bce44f9b7ec9e67a135009a599b7c5737782e68")]
 [assembly: System.Reflection.AssemblyProductAttribute("ESPDumpsterWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ESPDumpsterWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
