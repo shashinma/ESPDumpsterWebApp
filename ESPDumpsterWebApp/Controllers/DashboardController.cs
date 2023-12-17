@@ -30,11 +30,6 @@ public class DashboardController : Controller
         return View();
     }
     
-    public IActionResult Feedback()
-    {
-        return View();
-    }
-    
     public IActionResult AuthenticationLogin()
     {
         return View();

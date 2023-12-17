@@ -69,40 +69,31 @@
                             <span class="hide-menu">Оповещения</span>
                           </a>
             </li>
-            <li class="sidebar-item">
-                          <a class="sidebar-link" asp-action="Feedback" asp-controller="Dashboard" aria-expanded="false">
-                            <span>
-                              <i class="ti ti-aperture"></i>
-                            </span>
-                            <span class="hide-menu">Обратная связь</span>
-                          </a>
-            </li>
-            
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
               <span class="hide-menu">Аккаунт</span>
             </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" asp-action="AuthenticationLogin" asp-controller="Dashboard" aria-expanded="false">
-                <span>
-                  <i class="ti ti-login"></i>
-                </span>
-                <span class="hide-menu">Авторизация</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" asp-action="AuthenticationRegister" asp-controller="Dashboard" aria-expanded="false">
-                <span>
-                  <i class="ti ti-user-plus"></i>
-                </span>
-                <span class="hide-menu">Регистрация</span>
-              </a>
-            </li>
-            
-            <li class="nav-small-cap">
-              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">Выход</span>
-            </li>
+            @* <li class="sidebar-item"> *@
+            @*   <a class="sidebar-link" asp-action="AuthenticationLogin" asp-controller="Dashboard" aria-expanded="false"> *@
+            @*     <span> *@
+            @*       <i class="ti ti-login"></i> *@
+            @*     </span> *@
+            @*     <span class="hide-menu">Авторизация</span> *@
+            @*   </a> *@
+            @* </li> *@
+            @* <li class="sidebar-item"> *@
+            @*   <a class="sidebar-link" asp-action="AuthenticationRegister" asp-controller="Dashboard" aria-expanded="false"> *@
+            @*     <span> *@
+            @*       <i class="ti ti-user-plus"></i> *@
+            @*     </span> *@
+            @*     <span class="hide-menu">Регистрация</span> *@
+            @*   </a> *@
+            @* </li> *@
+            @* *@
+            @* <li class="nav-small-cap"> *@
+            @*   <i class="ti ti-dots nav-small-cap-icon fs-4"></i> *@
+            @*   <span class="hide-menu">Выход</span> *@
+            @* </li> *@
             <li class="sidebar-item">
               <a class="sidebar-link" asp-action="Index" asp-controller="Home" aria-expanded="false">
                 <span>
@@ -190,69 +181,6 @@
                     <div class="timeline-desc fs-3 text-dark mt-n1">Уровень наполненности<br/> @espItem.LevelString</div>
                   </li>
                 }
-                
-                @* <li class="timeline-item d-flex position-relative overflow-hidden"> *@
-                @*   <div class="timeline-time text-dark flex-shrink-0 text-end">10:00 am</div> *@
-                @*   <div class="timeline-badge-wrap d-flex flex-column align-items-center"> *@
-                @*     <span class="timeline-badge border-2 border border-info flex-shrink-0 my-8"></span> *@
-                @*     <span class="timeline-badge-border d-block flex-shrink-0"></span> *@
-                @*   </div> *@
-                @*   <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a *@
-                @*                                                                                   href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a> *@
-                @*   </div> *@
-                @* </li> *@
-                @* <li class="timeline-item d-flex position-relative overflow-hidden"> *@
-                @*     <div class="timeline-time text-dark flex-shrink-0 text-end">09:30</div> *@
-                @*     <div class="timeline-badge-wrap d-flex flex-column align-items-center"> *@
-                @*       <span class="timeline-badge border-2 border border-primary flex-shrink-0 my-8"></span> *@
-                @*       <span class="timeline-badge-border d-block flex-shrink-0"></span> *@
-                @*     </div> *@
-                @*     <div class="timeline-desc fs-3 text-dark mt-n1">Payment received from John Doe of $385.90</div> *@
-                @*   </li> *@
-                @* <li class="timeline-item d-flex position-relative overflow-hidden"> *@
-                @*     <div class="timeline-time text-dark flex-shrink-0 text-end">10:00 am</div> *@
-                @*     <div class="timeline-badge-wrap d-flex flex-column align-items-center"> *@
-                @*       <span class="timeline-badge border-2 border border-info flex-shrink-0 my-8"></span> *@
-                @*       <span class="timeline-badge-border d-block flex-shrink-0"></span> *@
-                @*     </div> *@
-                @*     <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a *@
-                @*         href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a> *@
-                @*     </div> *@
-                @*   </li> *@
-                @* <li class="timeline-item d-flex position-relative overflow-hidden"> *@
-                @*     <div class="timeline-time text-dark flex-shrink-0 text-end">12:00 am</div> *@
-                @*     <div class="timeline-badge-wrap d-flex flex-column align-items-center"> *@
-                @*       <span class="timeline-badge border-2 border border-success flex-shrink-0 my-8"></span> *@
-                @*       <span class="timeline-badge-border d-block flex-shrink-0"></span> *@
-                @*     </div> *@
-                @*     <div class="timeline-desc fs-3 text-dark mt-n1">Payment was made of $64.95 to Michael</div> *@
-                @*   </li> *@
-                @* <li class="timeline-item d-flex position-relative overflow-hidden"> *@
-                @*     <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div> *@
-                @*     <div class="timeline-badge-wrap d-flex flex-column align-items-center"> *@
-                @*       <span class="timeline-badge border-2 border border-warning flex-shrink-0 my-8"></span> *@
-                @*       <span class="timeline-badge-border d-block flex-shrink-0"></span> *@
-                @*     </div> *@
-                @*     <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a *@
-                @*         href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a> *@
-                @*     </div> *@
-                @*   </li> *@
-                @* <li class="timeline-item d-flex position-relative overflow-hidden"> *@
-                @*     <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div> *@
-                @*     <div class="timeline-badge-wrap d-flex flex-column align-items-center"> *@
-                @*       <span class="timeline-badge border-2 border border-danger flex-shrink-0 my-8"></span> *@
-                @*       <span class="timeline-badge-border d-block flex-shrink-0"></span> *@
-                @*     </div> *@
-                @*     <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New arrival recorded  *@
-                @*     </div> *@
-                @*   </li> *@
-                @* <li class="timeline-item d-flex position-relative overflow-hidden"> *@
-                @*     <div class="timeline-time text-dark flex-shrink-0 text-end">12:00 am</div> *@
-                @*     <div class="timeline-badge-wrap d-flex flex-column align-items-center"> *@
-                @*       <span class="timeline-badge border-2 border border-success flex-shrink-0 my-8"></span> *@
-                @*     </div> *@
-                @*     <div class="timeline-desc fs-3 text-dark mt-n1">Payment Done</div> *@
-                @*   </li> *@
                 </ul>
               </div>
             </div>
