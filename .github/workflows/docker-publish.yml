@@ -16,7 +16,7 @@ env:
 
 jobs:
   Build-ESPDumpsterWebApp:
-    environment: WebApp
+    environment: ICLWebApp
       
     runs-on: ubuntu-latest
     
