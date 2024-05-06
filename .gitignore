@@ -269,7 +269,6 @@ docker-compose.yml
 
 
 ESPDumpsterWebApp.API/obj
-/ESPDumpsterWebApp.API/obj/
-/ESPDumpsterWebApp.API/bin/
-/ESPDumpsterWebApp/bin/
-/ESPDumpsterWebApp/obj/
+ESPDumpsterWebApp.API/bin
+ESPDumpsterWebApp/bin
+ESPDumpsterWebApp/obj
