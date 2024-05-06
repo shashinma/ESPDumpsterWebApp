@@ -275,3 +275,6 @@ ESPDumpsterWebApp/obj/Debug/net8.0/ESPDumpsterWebApp.pdb
 ESPDumpsterWebApp/obj/Debug/net8.0/ESPDumpsterWebApp.sourcelink.json
 ESPDumpsterWebApp/obj/Debug/net8.0/ref/ESPDumpsterWebApp.dll
 ESPDumpsterWebApp/obj/Debug/net8.0/refint/ESPDumpsterWebApp.dll
+
+ESPDumpsterWebApp/obj/
+ESPDumpsterWebApp.API/obj/
