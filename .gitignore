@@ -266,15 +266,10 @@ docker-compose.yml
 *.db
 *.db*
 *.Development.json
-ESPDumpsterWebApp/bin/Debug/net8.0/ESPDumpsterWebApp.dll
-ESPDumpsterWebApp/bin/Debug/net8.0/ESPDumpsterWebApp.pdb
-ESPDumpsterWebApp/obj/Debug/net8.0/ESPDumpsterWebApp.AssemblyInfo.cs
-ESPDumpsterWebApp/obj/Debug/net8.0/ESPDumpsterWebApp.AssemblyInfoInputs.cache
-ESPDumpsterWebApp/obj/Debug/net8.0/ESPDumpsterWebApp.dll
-ESPDumpsterWebApp/obj/Debug/net8.0/ESPDumpsterWebApp.pdb
-ESPDumpsterWebApp/obj/Debug/net8.0/ESPDumpsterWebApp.sourcelink.json
-ESPDumpsterWebApp/obj/Debug/net8.0/ref/ESPDumpsterWebApp.dll
-ESPDumpsterWebApp/obj/Debug/net8.0/refint/ESPDumpsterWebApp.dll
 
-ESPDumpsterWebApp/obj/**
-ESPDumpsterWebApp.API/obj/**
+
+ESPDumpsterWebApp.API/obj
+/ESPDumpsterWebApp.API/obj/
+/ESPDumpsterWebApp.API/bin/
+/ESPDumpsterWebApp/bin/
+/ESPDumpsterWebApp/obj/
