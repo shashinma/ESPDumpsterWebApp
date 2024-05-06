@@ -7,12 +7,12 @@ using POSTerminal.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DbConnection") ?? 
+var connectionString = builder.Configuration.GetConnectionString("DbConnection") ??
                        throw new InvalidOperationException("Connection string 'DbConnection' not found.");
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => 
-    options.UseSqlite(connectionString)); 
-builder.Services.AddDbContext<ESPPostContext>(options => 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite(connectionString));
+builder.Services.AddDbContext<ESPPostContext>(options =>
     options.UseSqlite(connectionString));
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -78,8 +78,9 @@ using (var scope = app.Services.CreateScope())
     {
         appDbContext.Database.Migrate();
     }
-    
+
     await SampleData.CreateDefaultOrgs(scope.ServiceProvider);
+    await SampleData.CreateDefaultData(scope.ServiceProvider);
 }
 
 app.Run();

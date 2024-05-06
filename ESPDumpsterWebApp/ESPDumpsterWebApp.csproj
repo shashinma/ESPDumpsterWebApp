@@ -28,7 +28,7 @@
             <Name>ESPDumpsterWebApp.API</Name>
         </ProjectReference>
     </ItemGroup>
-    
+
     <ItemGroup>
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
